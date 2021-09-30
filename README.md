@@ -1,10 +1,7 @@
-# chenyiqaq.github.io
-## qwq
+# 欢迎来的我的博客！
+## 引言
 
-You can use the [editor on GitHub](https://github.com/Chenyiqaq/Chenyiqaq.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+我是一个初入的萌新，在搭建这个小小的网页的时候，也熬过夜，一边又一遍的一边学习一边尝试。面对一个崭新的，从来没有接触过的英文界面，和从未涉足的领域，过程自然是苦涩而艰辛的，但是如果你看到了这个网页，那是我埋下的小小的梦想种子。
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
