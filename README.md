@@ -2,12 +2,9 @@
 ## 引言
 
 我是一个初入的萌新，在搭建这个小小的网页的时候，也熬过夜，一边又一遍的一边学习一边尝试。面对一个崭新的，从来没有接触过的英文界面，和从未涉足的领域，过程自然是苦涩而艰辛的，但是如果你看到了这个网页，那是我埋下的小小的梦想种子。
-### Markdown
+### 起点
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+> 我的全部才华都来自对我要处理的题材的热爱。只有对伟大、对真、对美的爱，才能激发我的天才。——卢梭
 
 # Header 1
 ## Header 2
