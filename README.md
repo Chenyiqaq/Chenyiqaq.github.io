@@ -34,4 +34,4 @@
 [知乎](https://www.zhihu.com/) `https://www.zhihu.com/`
 ### 致谢
 ---
-* 郭师哥 [和师哥长聊后建立了信心♥]
+* 
