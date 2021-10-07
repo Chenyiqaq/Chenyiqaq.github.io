@@ -14,9 +14,10 @@
 bandit靶场自学日记
 
 ## 1.Xshell的安装
-```
-进入Xshell的[官网](https://www.netsarang.com/en/xshell/)进行安装
 
+进入Xshell的[官网](https://www.netsarang.com/en/xshell/)进行安装
+![pre](https://user-images.githubusercontent.com/91616087/136350825-a052ce48-0461-44e8-8483-34a5c4bce6d0.png)
+```
 ```
 [SSH](ssh为secureshell的缩写。 "什么是ssh")也给我造成了巨大的麻烦。
 ### 加藤惠照片
