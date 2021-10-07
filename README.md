@@ -20,6 +20,9 @@ bandit靶场自学日记
 ```
 我选择的是personal30天使用。在选择好后在文件-会话属性-SSH-隧道中将转发X11连接到选项去勾选，如图：
 ```
+![pre1](https://user-images.githubusercontent.com/91616087/136351219-0a5aef93-04d5-4a32-a44d-042bdfc8cd1a.png)
+否则会一直提示转发到Xmanager。别问我为啥取消勾选！doge
+
 [SSH](ssh为secureshell的缩写。 "什么是ssh")也给我造成了巨大的麻烦。
 ### 加藤惠照片
 <![Kato_Megumi1](https://user-images.githubusercontent.com/91616087/135485196-d49f1572-8327-4d18-a65f-8db17d224ab6.gif),![Kato_Megumi3](https://user-images.githubusercontent.com/91616087/135485474-981816bf-19e9-4bae-8d78-c67af71f0be1.gif)>
