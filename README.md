@@ -22,15 +22,25 @@ bandit靶场自学日记
 ```
 ![pre1](https://user-images.githubusercontent.com/91616087/136351219-0a5aef93-04d5-4a32-a44d-042bdfc8cd1a.png)
 否则会一直提示转发到Xmanager。别问我为什么取消勾选！doge
-## 1.Level 0-1
+## 1.Level 0
 *Level Goal
 The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.*<br>
 lv1很简单，即连接到 `bandit.labs.overthewire.org `，并且使用 `bandit0 `作为账户和密码登录。<br>
 我使用的是新建会话的方式，如下图分别填好SSH，port，账户和密码；
 ![bandit0 1](https://user-images.githubusercontent.com/91616087/136353769-6be31b48-aff4-4bba-829b-72dd79f50013.png)，![bandit0 2](https://user-images.githubusercontent.com/91616087/136353810-ecc992a6-6253-42b3-8dd9-410e73e0d74a.png)<br>
 或者输入 `ssh bandit0@bandit.labs.overthewire.org -p 2220 `连接后输入提示的password。
-## 2.Level 1-2
-lv1是对游戏的再一次简介，帮助再次了解这个游戏。从Lv1正式开始。（然后我对着这个全英文翻译了半天，发现什么用都没有，我也是服了= =！）
+## 2.Level 0-1
+lv1是对游戏的再一次简介，帮助再次了解这个游戏。从Lv1正式开始。（然后我对着这个全英文翻译了半天，发现什么用都没有，我也是服了= =！）<br>
+*Level Goal
+The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.*<br>
+本关的flag藏在**readme**下，需要我们进行读取。
+![bandit1 1](https://user-images.githubusercontent.com/91616087/136355480-2956fcd4-8b10-43e0-b68e-e3c0a8f66fd0.png)
+```
+直接用ls指令查看当下的文件，或者使用ls-a指令。发下下属readme文件。用cat指令进行读取。得到flag
+```
+`boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+
+
 
 
 
