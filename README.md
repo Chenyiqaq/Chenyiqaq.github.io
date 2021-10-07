@@ -45,12 +45,12 @@ The password for the next level is stored in a file called - located in the home
 Commands you may need to solve this level
 ls, cd, cat, file, du, find*<br>
 本关旨在让我们从-文件中得到flag，还很贴心的给出了我们要学习的指令，建议谷歌2333<br>
-
+![l1-2](https://user-images.githubusercontent.com/91616087/136358960-2bf06188-1ee6-4a46-83c7-3066014373db.png)
 ## Level 2-3
 *Level Goal
 The password for the next level is stored in a file called spaces in this filename located in the home directory*<br>
 本次学习的指令和上次相同。题目要求从**spaces in this filename**中得到flag，但由于带空格，导致读取稍微增加了难度。<br>
-
+![2-3](https://user-images.githubusercontent.com/91616087/136358996-08c25b28-f0c0-4696-911f-49f7ca1b7c5e.png)<br>
 我们输入`cat "spaces in this filename"`用双引号包裹起来表示是一个名称（与编程语言中有相似之处233）即可得到flag<br>
 
 
