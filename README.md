@@ -9,10 +9,14 @@
 # 我
 ![这是我老婆！OWO](https://user-images.githubusercontent.com/91616087/135478131-c85f3d08-0b23-4d25-aeba-5a8e60a4c607.jpg)
 
-## 自学搭建网页中遇到的问题
-```markdown
-我在自学时第一个问题是域名的选择相对来说，Github提供了一个**免费**而且便捷的选择
-其次是SSH
+# Bandit wargame
+---
+bandit靶场自学日记
+
+## 1.Xshell的安装
+```
+进入Xshell的[官网](https://www.netsarang.com/en/xshell/)进行安装
+
 ```
 [SSH](ssh为secureshell的缩写。 "什么是ssh")也给我造成了巨大的麻烦。
 ### 加藤惠照片
