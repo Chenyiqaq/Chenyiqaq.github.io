@@ -65,7 +65,7 @@ The password for the next level is stored in the only human-readable file in the
 如题，题目说存在于**inhere**下“人可读的文件”中。<br>
 用ls-l指令查看，结果一无所获。在查阅资料的时候突然意识到，ls指令用于查询名称等，但对文件类型有特定的指令file。如图：<br>
 ![4-5](https://user-images.githubusercontent.com/91616087/136417402-1822ff8f-479b-4e16-8e00-76c8063815eb.png)<br>
-果然填入`file ./*`查看当下所有文件的文件类型，发现了与众不同的[ASCII](JOJO，这就是你的隐藏路线嘛),注意用cat ./-file07读取。得到密钥。<br>
+果然填入`file ./*`查看当下所有文件的文件类型，发现了与众不同的[ASCII](  JOJO，这就是你的隐藏路线嘛),注意用cat ./-file07读取。得到密钥。<br>
 ![4-5 1](https://user-images.githubusercontent.com/91616087/136417473-b8e7e309-9586-4a33-85a7-68c5a89eeb5b.png)<br>
 `koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
 
