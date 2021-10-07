@@ -44,15 +44,20 @@ The password for the next level is stored in a file called readme located in the
 The password for the next level is stored in a file called - located in the home directory
 Commands you may need to solve this level
 ls, cd, cat, file, du, find*<br>
-本关旨在让我们从-文件中得到flag，还很贴心的给出了我们要学习的指令，建议谷歌2333<br>
+本关旨在让我们从-文件中得到flag，还很贴心的给出了我们要学习的指令，建议谷歌2333,flag为`CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`<br>
 ![l1-2](https://user-images.githubusercontent.com/91616087/136358960-2bf06188-1ee6-4a46-83c7-3066014373db.png)
 ## Level 2-3
 *Level Goal
 The password for the next level is stored in a file called spaces in this filename located in the home directory*<br>
 本次学习的指令和上次相同。题目要求从**spaces in this filename**中得到flag，但由于带空格，导致读取稍微增加了难度。<br>
 ![2-3](https://user-images.githubusercontent.com/91616087/136358996-08c25b28-f0c0-4696-911f-49f7ca1b7c5e.png)<br>
-我们输入`cat "spaces in this filename"`用双引号包裹起来表示是一个名称（与编程语言中有相似之处233）即可得到flag<br>
-
+我们输入`cat "spaces in this filename"`用双引号包裹起来表示是一个名称（与编程语言中有相似之处233）即可得到flag`UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`<br>
+## Level 3-4
+*Level Goal
+The password for the next level is stored in a hidden file in the inhere directory.*<br>
+如题，从inhere目录下的隐藏文件中取得flag`pIwrPrtPN36QITSp3EQaw936yaFoFgAB`。<br>
+![3-4](https://user-images.githubusercontent.com/91616087/136360559-9bd77f5f-1baa-41a7-a7be-735e753fa7a7.png)
+如图，我还是对知识不够熟悉。在搜索所有的文件后以`.`开头的是隐藏文件，在使用cat指令的时候别忘记空格和`.`等<br>
 
 
 
