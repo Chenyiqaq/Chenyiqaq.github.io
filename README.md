@@ -23,9 +23,9 @@ bandit靶场自学日记
 ![pre1](https://user-images.githubusercontent.com/91616087/136351219-0a5aef93-04d5-4a32-a44d-042bdfc8cd1a.png)
 否则会一直提示转发到Xmanager。别问我为什么取消勾选！doge
 ## Level0-1
-Level Goal
-The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
-lv1很简单，即连接到 `bandit.labs.overthewire.org `，并且使用 `bandit0 `作为账户和密码登录
+*Level Goal
+The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.*<br>
+lv1很简单，即连接到 `bandit.labs.overthewire.org `，并且使用 `bandit0 `作为账户和密码登录。
 
 [SSH](ssh为secureshell的缩写。 "什么是ssh")也给我造成了巨大的麻烦。
 ### 加藤惠照片
