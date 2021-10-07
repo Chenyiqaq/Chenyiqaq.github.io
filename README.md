@@ -68,6 +68,32 @@ The password for the next level is stored in the only human-readable file in the
 果然填入`file ./*`查看当下所有文件的文件类型，发现了与众不同的[ASCII](  JOJO，这就是你的隐藏路线嘛),注意用cat ./-file07读取。得到密钥。<br>
 ![4-5 1](https://user-images.githubusercontent.com/91616087/136417473-b8e7e309-9586-4a33-85a7-68c5a89eeb5b.png)<br>
 `koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
+## Level 5-6
+
+*Level Goal
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+human-readable<br>
+1033 bytes in size<br>
+not executable*<br>
+这道题让我们找出具有下面特点的一个文件。**1033bt大小**，这时我们可以使用find指令（这道题由于find指令的格式不是特别懂，找到了原题，查看了输入实例。我的，我的）下面是关于find的使用要领资料<br>
+![5-6](https://user-images.githubusercontent.com/91616087/136422982-9bc2059b-c0f9-4342-a8b0-cfd86aff35ae.png)<br>
+>-size n[cwbkMG] : 档案大小 为 n 个由后缀决定的数据块。其中后缀含义为：<br>
+>b: 代表 512 位元组的区块（如果用户没有指定后缀，则默认为 b）<br>
+>c: 表示字节数<br>
+>k: 表示 kilo bytes （1024字节）<br>
+>w: 字 （2字节）<br>
+>M:兆字节（1048576字节）<br>
+>G: 千兆字节 （1073741824字节）<br>
+>-type c : 档案类型是 c 。<br>
+>d: 目录<br>
+>c: 字型装置档案<br>
+>b: 区块装置档案p: 具名贮列<br>
+>f: 一般档案<br>
+>l: 符号连结<br>
+>s: socket<br>
+---
+最终如下：<br>
+![5-6 1](https://user-images.githubusercontent.com/91616087/136423813-1ab853cd-b8b7-4ab3-978d-10ca67b771f3.png)
 
 
 
