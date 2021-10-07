@@ -39,6 +39,13 @@ The password for the next level is stored in a file called readme located in the
 直接用ls指令查看当下的文件，或者使用ls-a指令。发下下属readme文件。用cat指令进行读取。得到flag
 ```
 `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+## 3.Level 1-2
+*Level Goal
+The password for the next level is stored in a file called - located in the home directory
+Commands you may need to solve this level
+ls, cd, cat, file, du, find*<br>
+本关旨在让我们从-文件中得到flag，还很贴心的给出了我们要学习的指令，建议谷歌2333<br>
+
 
 
 
