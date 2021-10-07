@@ -56,7 +56,7 @@ The password for the next level is stored in a file called spaces in this filena
 *Level Goal
 The password for the next level is stored in a hidden file in the inhere directory.*<br>
 如题，从inhere目录下的隐藏文件中取得flag`pIwrPrtPN36QITSp3EQaw936yaFoFgAB`。<br>
-![3-4](https://user-images.githubusercontent.com/91616087/136360559-9bd77f5f-1baa-41a7-a7be-735e753fa7a7.png)
+![3-4](https://user-images.githubusercontent.com/91616087/136360559-9bd77f5f-1baa-41a7-a7be-735e753fa7a7.png)<br>
 如图，用ls-a，查看所有目录当下所有文件，用cat指令抓取hidden。<br>
 **我还是对知识不够熟悉。在搜索所有的文件后以`.`开头的是隐藏文件，在使用cat指令的时候别忘记空格和`.`等**<br>
 ## 6.Level 4-5
