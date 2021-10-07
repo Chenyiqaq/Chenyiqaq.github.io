@@ -91,7 +91,6 @@ not executable*<br>
 >f: 一般档案<br>
 >l: 符号连结<br>
 >s: socket<br>
----
 最终如下：<br>
 ![5-6 1](https://user-images.githubusercontent.com/91616087/136423813-1ab853cd-b8b7-4ab3-978d-10ca67b771f3.png)
 
