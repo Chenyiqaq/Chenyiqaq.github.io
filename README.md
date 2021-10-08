@@ -68,7 +68,7 @@ The password for the next level is stored in the only human-readable file in the
 果然填入`file ./*`查看当下所有文件的文件类型，发现了与众不同的[ASCII](  JOJO，这就是你的隐藏路线嘛),注意用cat ./-file07读取。得到密钥。<br>
 ![4-5 1](https://user-images.githubusercontent.com/91616087/136417473-b8e7e309-9586-4a33-85a7-68c5a89eeb5b.png)<br>
 `koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
-## Level 5-6
+## 7.Level 5-6
 
 *Level Goal
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
