@@ -93,8 +93,17 @@ not executable*<br>
 >s: socket<br>
 最终如下：<br>
 ![5-6 1](https://user-images.githubusercontent.com/91616087/136423813-1ab853cd-b8b7-4ab3-978d-10ca67b771f3.png)
-
-
+## 8.Level6-7
+**Level Goal<br>
+The password for the next level is stored somewhere on the server and has all of the following properties:<br>
+owned by user bandit7<br>
+owned by group bandit6<br>
+33 bytes in size<br>**
+本题flag在一个属于用户bandit7，group-bandit6，大小为33bt的文件中，依然是对find指令的学习<br>
+![6-7](https://user-images.githubusercontent.com/91616087/136691151-52782377-85cf-4a1e-af11-5902223b511a.png),![6-7 1](https://user-images.githubusercontent.com/91616087/136691166-5f4034ed-1fae-4c37-b23f-9c848c10696e.png),![6-7 2](https://user-images.githubusercontent.com/91616087/136691178-735ae515-fd13-4547-9d5b-94348835aef6.png)<br>
+但是当我们输入find指令时却出现了如下情况：<br>
+![6-7 4](https://user-images.githubusercontent.com/91616087/136691235-27defc11-a73f-433f-98cf-79b88f41f6ea.png)<br>
+经过不懈的查询，发现了问题所在。如照片所示，很多事permission denied。这种提示没有权限的反馈，称作标准错误流，
 
 
 
