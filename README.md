@@ -92,7 +92,8 @@ not executable*<br>
 >l: 符号连结<br>
 >s: socket<br>
 最终如下：<br>
-![5-6 1](https://user-images.githubusercontent.com/91616087/136423813-1ab853cd-b8b7-4ab3-978d-10ca67b771f3.png)
+![5-6 1](https://user-images.githubusercontent.com/91616087/136423813-1ab853cd-b8b7-4ab3-978d-10ca67b771f3.png)<br>
+
 ## 8.Level6-7
 **Level Goal<br>
 The password for the next level is stored somewhere on the server and has all of the following properties:<br>
