@@ -111,6 +111,13 @@ owned by group bandit6<br>
 *Level Goal
 The password for the next level is stored in the file data.txt and is the only line of text that occurs only once*<br>
 本题flag在文件唯一中的一行里，所以我们用`uniq`指令搜索哪一行即可<br>
+![8-9](https://user-images.githubusercontent.com/91616087/136819885-c52438f1-78c7-435d-9e81-0304170f368e.png)<br>![8-9 1](https://user-images.githubusercontent.com/91616087/136819902-99ec1429-5e6b-4302-9a34-027b9e221e8f.png)<br>
+得到flag`UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR`<br>
+## 10.Level9-10-8
+#Level Goal
+The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.#
+这道题目比较简单用strings指令抓取可打印的字符即可。<br>
+
 
 
 
