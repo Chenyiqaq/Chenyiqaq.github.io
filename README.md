@@ -104,9 +104,9 @@ owned by group bandit6<br>
 ![6-7](https://user-images.githubusercontent.com/91616087/136691151-52782377-85cf-4a1e-af11-5902223b511a.png),![6-7 1](https://user-images.githubusercontent.com/91616087/136691166-5f4034ed-1fae-4c37-b23f-9c848c10696e.png),![6-7 2](https://user-images.githubusercontent.com/91616087/136691178-735ae515-fd13-4547-9d5b-94348835aef6.png)<br>
 但是当我们输入find指令时却出现了如下情况：<br>
 ![6-7 4](https://user-images.githubusercontent.com/91616087/136691235-27defc11-a73f-433f-98cf-79b88f41f6ea.png)<br>
-经过不懈的查询，发现了问题所在。如照片所示，很多事permission denied。这种提示没有权限的反馈，称作标准错误流，我们需要将他丢到垃圾桶（黑洞）中去，以防干扰我们。而这个垃圾桶就是，如下指令<br>
-![6-7 5](https://user-images.githubusercontent.com/91616087/136813847-904ccce8-f273-46dd-8a11-221853d7f1fd.png)<br>
+经过不懈的查询，发现了问题所在。如照片所示，很多是permission denied。这种提示没有权限的反馈，称作标准错误流，我们需要将他丢到垃圾桶（黑洞）中去，以防干扰我们。而这个垃圾桶就是，如下指令<br>
 `2> /dev/null`将标准错误流丢到dev/null中去，dev/null.就是专职储存无用信息的。由此，得到flag`HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`<br>
+![6-7 5](https://user-images.githubusercontent.com/91616087/136813847-904ccce8-f273-46dd-8a11-221853d7f1fd.png)<br>
 ## 9.Level8-9
 *Level Goal
 The password for the next level is stored in the file data.txt and is the only line of text that occurs only once*<br>
